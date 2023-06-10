@@ -57,6 +57,10 @@ body {
     font-size: .7rem;
 }
 
+#markAll{
+    cursor: pointer;
+}
+
 
 .attribution {
     font-size: 11px;
