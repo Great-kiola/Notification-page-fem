@@ -127,8 +127,14 @@ span.chessClub{
 .msgreceived{
     margin: 10px auto;
     padding: 20px;
-    background-color: var(--Lightgrayishblue-1);
+    outline: 1px solid var(--Lightgrayishblue-2);
     border-radius: 5px;
+}
+
+.msgreceived:hover{
+    background-color: var(--Lightgrayishblue-1);
+    border: none;
+    outline: none;
 }
 
 .msgreceived p{
