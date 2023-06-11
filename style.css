@@ -63,10 +63,10 @@ body {
 
 .message{
     display: flex;
-    align-items: center;
     background-color: var(--Verylightgrayishblue);
     padding: 10px;
     margin-bottom: 6px;
+    cursor: pointer;
 }
 
 .message h1{
@@ -103,6 +103,17 @@ span.chessClub{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.msgreceived{
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--Lightgrayishblue-1);
+    border-radius: 5px;
+}
+
+.msgreceived p{
+    font-size: .8rem;
 }
 
 .attribution {
