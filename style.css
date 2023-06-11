@@ -93,6 +93,18 @@ span.chessClub{
     font-size: .7rem;
 }
 
+.commentedPic img{
+    width: 45px;
+    
+}
+
+.message .msgFlex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;     
