@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Jakarta, sans-serif;
+    font-family: Jakarta, Verdana, Arial, sans-serif;
     /* font-weight: bolder; */
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .container{
-    width: 400px;
+    width: 550px;
     background-color: var(--White);
     box-shadow:0 3px 20px 0 rgba(0, 0, 0, 0.1);
     padding: 25px;
@@ -61,6 +61,37 @@ body {
     cursor: pointer;
 }
 
+.message{
+    display: flex;
+    align-items: center;
+    background-color: var(--Verylightgrayishblue);
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.message h1{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.message .pfpImg img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.message .msgDiv .title{
+    color: var(--Darkgrayishblue);
+    font-weight: 700;
+}
+
+span.chessClub{
+    font-weight: bolder;
+    color: var(--Blue);
+}
+
+.msgTime{
+    font-size: .7rem;
+}
 
 .attribution {
     font-size: 11px;
