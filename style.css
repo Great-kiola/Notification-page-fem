@@ -22,7 +22,7 @@ body {
 }
 
 .container{
-    width: 550px;
+    width: 560px;
     background-color: var(--White);
     box-shadow:0 3px 20px 0 rgba(0, 0, 0, 0.1);
     padding: 25px;
@@ -63,10 +63,29 @@ body {
 
 .message{
     display: flex;
-    background-color: var(--Verylightgrayishblue);
     padding: 10px;
     margin-bottom: 6px;
     cursor: pointer;
+}
+
+.message.active{
+    background-color: var(--Verylightgrayishblue);
+}
+
+.msgDiv{
+    position: relative;
+}
+
+.message.active .msgDiv::before{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: var(--Red);
+    z-index: 100;
+    border-radius: 50%;
+    top: 7px;
+    right: -15px;
 }
 
 .message h1{
