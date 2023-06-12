@@ -95,7 +95,7 @@ body {
 
 .message .pfpImg img{
     width: 40px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .message .msgDiv .title{
@@ -137,9 +137,12 @@ span.chessClub{
 
 .verified{
     position: absolute;
-    width: 16px !important;
+    width: 18px !important;
     left: 30px;
     top: 0;
+    background-color: var(--White);
+    border-radius: 50px;
+    padding: 2px;
 }
 
 .msgreceived:hover{
