@@ -8,7 +8,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Jakarta, sans-serif;
-    /* font-weight: bolder; */
 }
 
 body {
@@ -137,12 +136,12 @@ span.chessClub{
 
 .verified{
     position: absolute;
-    width: 18px !important;
+    width: 20px !important;
     left: 30px;
     top: 0;
     background-color: var(--White);
     border-radius: 50px;
-    padding: 2px;
+    padding: 3px;
 }
 
 .msgreceived:hover{
