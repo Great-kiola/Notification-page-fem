@@ -136,12 +136,12 @@ span.chessClub{
 
 .verified{
     position: absolute;
-    width: 20px !important;
+    width: 18px !important;
     left: 30px;
     top: 0;
     background-color: var(--White);
     border-radius: 50px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .msgreceived:hover{
