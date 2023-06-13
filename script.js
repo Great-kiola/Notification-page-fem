@@ -17,7 +17,7 @@ messages.forEach( (msg) => {
     msg.addEventListener("click", function(e){
         e.preventDefault();
 
-        if (messages.active) {
+        if (!messages.active) {
             msg.classList.remove("active");
 
             if (notifNum.innerHTML >= 1){
