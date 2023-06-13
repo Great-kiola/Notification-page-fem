@@ -1,6 +1,5 @@
 let notifNum = document.querySelector(".notifNum");
 let markAll = document.getElementById("markAll");
-
 let messages = document.querySelectorAll(".message");
 
 markAll.addEventListener("click", function(e){
