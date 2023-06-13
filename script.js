@@ -8,10 +8,9 @@ notifNum.innerHTML = messages.length;
 messages.forEach((message) => {
     message.addEventListener("click", (e) => {
         e.preventDefault();
-
         message.classList.remove("active");
+
         const newNotifNum = document.querySelectorAll(".active");
-        
         notifNum.innerHTML = newNotifNum.length;
     })
 })
