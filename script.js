@@ -11,16 +11,23 @@ markAll.addEventListener("click", function(e){
     });
 
     notifNum.innerHTML = 0;
-
-
 });
 
 messages.forEach( (msg) => {
     msg.addEventListener("click", function(e){
         e.preventDefault();
 
-        msg.classList.remove("active");
-        notifNum.innerHTML --;
+        if (messages.active) {
+            msg.classList.remove("active");
+
+            if (notifNum.innerHTML >= 1){
+                notifNum.innerHTML --;
+            } else if (notifNum.innerHTML <= 0){
+                notifNum.innerHTML = 0;
+            } else{
+                notifNum.innerHTML ++;
+            }
+        }
 
     });
 });
