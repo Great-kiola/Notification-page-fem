@@ -27,6 +27,9 @@ markAll.addEventListener("click", function(e){
     notifNum.innerHTML = 0;
 });
 
+
+// Redundant codes
+
 // messages.forEach( (msg) => {
 //     msg.addEventListener("click", function(e){
 //         e.preventDefault();
